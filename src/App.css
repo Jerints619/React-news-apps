@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.header
+{
+    
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(22, 48, 26);
+    display: flex;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main
+{
+    /* margin-top: 1%; */
+    width: 130%;
+    min-height: 100vh;
+    background-color: rgba(246, 246, 44, 0.263);
+    background-image: url('https://imgs.search.brave.com/eHKrU3wWSspYj0Kqp-_jHdrRmTDK94Yn1wKw5ElGtjE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9wbHVz/LnVuc3BsYXNoLmNv/bS9wcmVtaXVtX3Bo/b3RvLTE2NzE5OTU1/NzY1NDEtYTYzMDc4/ZmEzMDYzP3E9ODAm/dz0xMDAwJmF1dG89/Zm9ybWF0JmZpdD1j/cm9wJml4bGliPXJi/LTQuMC4zJml4aWQ9/TTN3eE1qQTNmREI4/TUh4bGVIQnNiM0ps/TFdabFpXUjhNbng4/ZkdWdWZEQjhmSHg4/ZkE9PQ');
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 30px;
+    
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.news
+{
+    width: 20%;
+    height: 55%;
+    background-color: rgba(128, 190, 245, 0);
+    color: rgb(77, 12, 239);
+    margin-top: 5px;
+    
+        
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.news-img
+{
+    width: 80%;
+    height: 50%;
+    background-color: rgb(246, 44, 155);
+    /* padding: 50px; */
+    margin-top: 3px;
+    margin-left: 20px;
+    background-size: cover;
+    border-radius: 10px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.news-img img 
+{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.author{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.news-content{
+    padding: 5px;
+    min-height: 10px;
+    /* line-height: 25px; */
+}
+
+.news-content p {
+    font-size: smaller;
+    margin-top: 5px;
+}
+
+.news-content a {
+    font-size: smaller;
+    margin-top: 10px;
 }
